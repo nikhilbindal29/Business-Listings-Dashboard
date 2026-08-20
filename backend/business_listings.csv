@@ -1,0 +1,8 @@
+business_name,category,city,address,phone,source
+ABC Electronics,Electronics,Delhi,Connaught Place,9876543210,Sample
+XYZ Restaurant,Restaurant,Noida,Sector 18,9123456789,Sample
+business_name,category,city,address,phone,source
+ABC Restaurant,Food,Delhi,Connaught Place,9999999999,Google
+City Hospital,Healthcare,Noida,Sector 62,8888888888,Justdial
+Tech Solutions,IT,Ghaziabad,RDC,7777777777,Website
+Cafe Corner,Food,Mumbai,Andheri,6666666666,Google
