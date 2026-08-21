@@ -4,13 +4,13 @@ import mysql.connector
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Nikhil@123",
+    password="SQL@123",
     database="business_dashboard"
 )
 
 cursor = conn.cursor()
 
-df = pd.read_csv("business_listings.csv")
+df = pd.read_csv("business_listings_500plus.csv")
 
 for _, row in df.iterrows():
     cursor.execute("""
@@ -28,8 +28,7 @@ for _, row in df.iterrows():
 
 conn.commit()
 
-print("✅ Data imported successfully!")
+print(f"Data imported successfully: {len(df)} records")
 
 cursor.close()
 conn.close()
-
